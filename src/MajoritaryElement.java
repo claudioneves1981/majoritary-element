@@ -29,7 +29,7 @@ public class MajoritaryElement {
 
                     count++;
 
-                    if (count == Math.round(elementsArray.size() / 2f)) {
+                    if (count > Math.round(elementsArray.size() / 2f)) {
 
                         result = elementsArray.get(j);
                     }
